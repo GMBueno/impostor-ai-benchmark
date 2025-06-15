@@ -1,12 +1,12 @@
-# Undercover AI Benchmark
+# Impostor AI Benchmark
 
-This project introduces a novel benchmark for evaluating the reasoning, strategic, and deceptive capabilities of large language models (LLMs) through a social deduction game called "Undercover".
+This project introduces a novel benchmark for evaluating the reasoning, strategic, and deceptive capabilities of large language models (LLMs) through a social deduction game called "Impostor" (based on "Undercover").
 
 ## Why This Benchmark?
 
 Traditional NLP benchmarks (like GLUE or SuperGLUE) are excellent for measuring a model's linguistic capabilities, but they often fall short in assessing more nuanced, human-like skills such as strategic thinking, theory of mind, and deception.
 
-The Undercover AI Benchmark places multiple AI agents in a competitive, multi-round game where they must use natural language to achieve their objectives. This dynamic environment serves as a testbed to evaluate how well models can:
+The Impostor AI Benchmark places multiple AI agents in a competitive, multi-round game where they must use natural language to achieve their objectives. This dynamic environment serves as a testbed to evaluate how well models can:
 - Generate contextually relevant and strategic language.
 - Deduce hidden information from the inputs of others.
 - Adapt their strategy based on evolving game states.
@@ -40,21 +40,21 @@ A simple scoring system is proposed:
 
 By running simulations at scale, we can generate a leaderboard that ranks models not just on their language proficiency, but on their ability to strategize, reason, and "play" a game effectively.
 
-~~~ vibe coded, i didn't even read this readme ~~~
+\~\~\~ vibe coded \~\~\~
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.12
 - An API key from [OpenRouter.ai](https://openrouter.ai/) to access the various models.
 
 ### Installation & Running
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/undercover-ai-benchmark.git
-    cd undercover-ai-benchmark
+    git clone https://github.com/GMBueno/impostor-ai-benchmark.git
+    cd impostor-ai-benchmark
     ```
 
 2.  **Set up a virtual environment:**
