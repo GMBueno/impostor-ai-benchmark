@@ -1,10 +1,10 @@
 # Impostor AI Benchmark
 
-This project introduces a novel benchmark for evaluating the reasoning, strategic, and deceptive capabilities of large language models (LLMs) through a social deduction game called "Impostor" (based on "Undercover").
+This project introduces a novel benchmark for evaluating the reasoning, strategic, and deceptive capabilities of large language models (LLMs) through a social deduction game (i) called "Impostor" (based on the game "Undercover").
 
 ## Why This Benchmark?
 
-Traditional NLP benchmarks (like GLUE or SuperGLUE) are excellent for measuring a model's linguistic capabilities, but they often fall short in assessing more nuanced, human-like skills such as strategic thinking, theory of mind, and deception.
+This benchmark tries to assess more nuanced skills such as strategic thinking, theory of mind, and deception.
 
 The Impostor AI Benchmark places multiple AI agents in a competitive, multi-round game where they must use natural language to achieve their objectives. This dynamic environment serves as a testbed to evaluate how well models can:
 - Generate contextually relevant and strategic language.
@@ -92,6 +92,7 @@ We encourage contributions to address these limitations! Future work could inclu
 - Creating a framework to easily add and evaluate new LLMs.
 - Developing a more sophisticated scoring and analytics suite.
 - Building a web-based interface to visualize the games and results.
+- Etc
 
 ## Contributing
 
